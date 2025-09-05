@@ -1,0 +1,49 @@
+Error: A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <Router actionQueue={{state:{...}, ...}} assetPrefix="">
+      <HistoryUpdater>
+      <RuntimeStyles>
+      <HotReload assetPrefix="">
+        <ReactDevOverlay state={{nextId:1, ...}} dispatcher={{...}}>
+          <DevRootNotFoundBoundary>
+            <NotFoundBoundary notFound={<NotAllowedRootNotFoundError>}>
+              <NotFoundErrorBoundary pathname="/" notFound={<NotAllowedRootNotFoundError>} notFoundStyles={undefined} ...>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <Head>
+                    <link>
+                    <script>
+                    <script>
+                    <RootLayout>
+                      <html
+                        lang="en"
+-                       className="dark"
+-                       data-mode="system"
+                      >
+                    ...
+          ...
+
+    at createUnhandledError (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_client_34bfc0._.js:744:19)
+    at handleClientError (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_client_34bfc0._.js:846:56)
+    at console.error (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_client_34bfc0._.js:977:56)
+    at emitPendingHydrationWarnings (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:2759:103)
+    at completeWork (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7217:102)
+    at runWithFiberInDEV (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:631:20)
+    at completeUnitOfWork (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7987:23)
+    at performUnitOfWork (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7929:28)
+    at workLoopConcurrent (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7923:58)
+    at renderRootConcurrent (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7905:71)
+    at performWorkOnRoot (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7544:112)
+    at performWorkOnRootViaSchedulerTask (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:8378:9)
+    at MessagePort.performWorkUntilDeadline (https://f1e0d621-bd2e-4f64-acfa-0ca7f6da3c0d-00-ag6a74lnsg2i.sisko.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_107ce8._.js:2352:64)
