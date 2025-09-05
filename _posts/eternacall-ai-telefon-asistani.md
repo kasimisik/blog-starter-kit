@@ -25,12 +25,12 @@ EternaCall, kişisel AI sesli asistanınızı oluşturup telefonunuza bağlaman�
 ## Geleneksel Telefon Sistemlerinden Farkı Nedir?
 
 | Özellik | Geleneksel Sistem | EternaCall AI |
-|---------|-------------------|---------------|
-| Müsaitlik | İnsan mevcudiyeti gerekli | 24/7 otomatik |
-| Yanıt Süresi | 3-5 saniye gecikme | Anında yanıt |
-| Kişiselleştirme | Sınırlı | Tam özelleştirme |
-| Maliyet | Sürekli personel | Tek seferlik kurulum |
-| Hata Oranı | İnsan faktörü | Tutarlı performans |
+|:--------|:------------------|:--------------|
+| **Müsaitlik** | İnsan mevcudiyeti gerekli | 24/7 otomatik |
+| **Yanıt Süresi** | 3-5 saniye gecikme | Anında yanıt |
+| **Kişiselleştirme** | Sınırlı | Tam özelleştirme |
+| **Maliyet** | Sürekli personel | Tek seferlik kurulum |
+| **Hata Oranı** | İnsan faktörü | Tutarlı performans |
 
 ## EternaCall'un 5 Temel Avantajı
 
