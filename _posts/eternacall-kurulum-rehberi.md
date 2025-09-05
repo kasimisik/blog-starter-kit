@@ -1,13 +1,13 @@
 ---
 title: 'EternaCall Kurulum Rehberi: 10 Dakikada AI Telefon Asistanınızı Aktif Edin'
 excerpt: 'EternaCall AI telefon asistanınızı 10 dakikada kurun. Kolay setup rehberi, çağrı yönlendirme ayarları ve özelleştirme ipuçlarıyla müşteri iletişiminizi güçlendirin.'
-coverImage: '/assets/blog/eternacall/cover.jpg'
+coverImage: '/assets/blog/kurulum/cover.jpg'
 date: '2024-08-14T05:35:07.322Z'
 author:
   name: EternaCoder
   picture: '/assets/blog/authors/eternacoder.jpeg'
 ogImage:
-  url: '/assets/blog/eternacall/cover.jpg'
+  url: '/assets/blog/kurulum/cover.jpg'
 ---
 
 ## Giriş

@@ -1,13 +1,13 @@
 ---
 title: 'Küçük İşletmeler İçin EternaCall: Büyük Şirket Avantajlarını Yakalayın'
 excerpt: 'Küçük işletmeler EternaCall AI telefon asistanı ile büyük şirket avantajlarını yakalıyor. Uygun fiyatlı, 24/7 müşteri hizmeti ve profesyonel telefon karşılama çözümlerini keşfedin.'
-coverImage: '/assets/blog/eternacall/cover.jpg'
+coverImage: '/assets/blog/kucuk-isletme/cover.jpg'
 date: '2024-09-22T05:35:07.322Z'
 author:
   name: EternaCoder
   picture: '/assets/blog/authors/eternacoder.jpeg'
 ogImage:
-  url: '/assets/blog/eternacall/cover.jpg'
+  url: '/assets/blog/kucuk-isletme/cover.jpg'
 ---
 
 ## Giriş

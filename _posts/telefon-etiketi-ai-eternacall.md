@@ -1,13 +1,13 @@
 ---
 title: 'Telefon Etiketi ve AI: EternaCall ile Profesyonel İletişimde Yeni Standartlar'
 excerpt: 'EternaCall AI telefon asistanı ile profesyonel iletişimde yeni standartları keşfedin. Telefon etiketi, kurumsal imaj ve müşteri memnuniyetinde AI çözümleriyle öne çıkın.'
-coverImage: '/assets/blog/eternacall/cover.jpg'
+coverImage: '/assets/blog/etiketi/cover.jpg'
 date: '2024-07-03T05:35:07.322Z'
 author:
   name: EternaCoder
   picture: '/assets/blog/authors/eternacoder.jpeg'
 ogImage:
-  url: '/assets/blog/eternacall/cover.jpg'
+  url: '/assets/blog/etiketi/cover.jpg'
 ---
 
 ## Giriş

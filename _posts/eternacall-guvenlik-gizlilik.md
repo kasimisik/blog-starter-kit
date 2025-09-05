@@ -1,13 +1,13 @@
 ---
 title: 'EternaCall Güvenlik ve Gizlilik: AI Telefon Asistanınız Ne Kadar Güvenli?'
 excerpt: 'EternaCall AI telefon asistanı ile güvenli müşteri iletişimi sağlayın. KVKK ve GDPR uyumlu, uçtan uca şifreleme ve güçlü veri koruma sistemleriyle işletmenizin gizliliğini koruyun.'
-coverImage: '/assets/blog/eternacall/cover.jpg'
+coverImage: '/assets/blog/guvenlik/cover.jpg'
 date: '2024-10-28T05:35:07.322Z'
 author:
   name: EternaCoder
   picture: '/assets/blog/authors/eternacoder.jpeg'
 ogImage:
-  url: '/assets/blog/eternacall/cover.jpg'
+  url: '/assets/blog/guvenlik/cover.jpg'
 ---
 
 ## Giriş

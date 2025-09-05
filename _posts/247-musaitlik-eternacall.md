@@ -1,13 +1,13 @@
 ---
 title: '24/7 Müsaitlik: EternaCall ile Hiçbir Müşteriyi Kaçırmayan İşletmeler'
 excerpt: 'EternaCall AI telefon asistanı ile 24/7 müşteri hizmeti sunun. Hiçbir çağrıyı kaçırmadan müşteri kaybını önleyin, satışlarınızı artırın ve profesyonel iletişim sağlayın.'
-coverImage: '/assets/blog/eternacall/cover.jpg'
+coverImage: '/assets/blog/247/cover.jpg'
 date: '2024-11-15T05:35:07.322Z'
 author:
   name: EternaCoder
   picture: '/assets/blog/authors/eternacoder.jpeg'
 ogImage:
-  url: '/assets/blog/eternacall/cover.jpg'
+  url: '/assets/blog/247/cover.jpg'
 ---
 
 ## Giriş
